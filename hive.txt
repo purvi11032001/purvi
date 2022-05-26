@@ -1,0 +1,20 @@
+su - hduser
+start - dfs.sh
+start-all.sh
+jps
+cd/usr/local/hive/bin
+./hive
+show databases;
+show tables;
+create database pract1;
+create table prac1((name string,csal int)row format delimited fields terminated by 'j' stored as textfiles;
+show tables;
+select*from prac1;
+select*from prac 1 where csal = 2000;
+ALERT TABLE prac1 ADDCOLUMNS(dept string);
+select * from prac1;
+desc prac1;
+show tables;
+desc table_name;
+drop table table_name;
+show tables;

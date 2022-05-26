@@ -1,0 +1,13 @@
+su - hduser
+sudo mkdir mydir
+sudo chmod -R 777 mkdir/
+ls
+ls id mydir/
+sudo cp/home/it/desktop/logfile/* `/mydir/
+cd mydir
+ls
+sudo chmod + r "."
+ls -al
+pwd
+/home/hduser/mydir
+sudo cp/home/it/desktop/logfile/* ~/a/
